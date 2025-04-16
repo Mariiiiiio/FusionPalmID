@@ -7,6 +7,10 @@
 
 In the post-pandemic era, we propose an integrated biometric authentication system leveraging both palm print and palm vein images. Our approach employs RGB lenses for palm print capture and NIR lenses for unforgeable palm vein extraction. Using Real-ESRGAN for palm print preprocessing and Gamma correction for palm vein enhancement, we achieve superior feature fusion with an optimal ratio of 20:80. Experimental evaluations demonstrate that YOLOv12 achieves the best performance with a mAP@50 of 0.964, surpassing traditional CNN and VGG16 models in accuracy, stability, and anti-counterfeiting capabilities.
 
+## Apporach
+
+
+
 ## Directory Structure
 
 ```
