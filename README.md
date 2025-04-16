@@ -1,5 +1,10 @@
-# Enhanced Biometric Authentication through Integrated Palm Print and Palm Vein Images
+<div align="center">
+<h1>FusionPalmID</h1>
+<h3>Enhanced Biometric Authentication through Integrated Palm Print and Palm Vein Images</h3>
+  [Chi Hung Wang1]<sup>1</sup>, [Wei Ren Chen](https://github.com/Mariiiiiio)<sup>2</sup>, [Jun Jie Yen]<sup>3</sup>, [Xiang Shun Yang]<sup>4</sup>, [Yu Siang Siang]<sup>5</sup>
+<sup>1</sup> Dept. of Artificial Intelligence Technology and Application, Feng Chia University, Taichung, Taiwan
 
+  
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -8,7 +13,7 @@
 In the post-pandemic era, we propose an integrated biometric authentication system leveraging both palm print and palm vein images. Our approach employs RGB lenses for palm print capture and NIR lenses for unforgeable palm vein extraction. Using Real-ESRGAN for palm print preprocessing and Gamma correction for palm vein enhancement, we achieve superior feature fusion with an optimal ratio of 20:80. Experimental evaluations demonstrate that YOLOv12 achieves the best performance with a mAP@50 of 0.964, surpassing traditional CNN and VGG16 models in accuracy, stability, and anti-counterfeiting capabilities.
 
 ## Apporach
-
+![image](https://github.com/Mariiiiiio/FusionPalmID/blob/master/img/flowchart.png)
 
 
 ## Directory Structure
@@ -105,6 +110,18 @@ Our YOLOv12-based model achieves:
 - mAP@50: 0.964
 - Superior anti-counterfeiting capabilities
 - Enhanced feature fusion with 20:80 ratio
+
+### Performance Visualization
+<div align="center">
+  <img src="https://github.com/Mariiiiiio/FusionPalmID/blob/master/img/Palm_Detection1.jpg" alt="Detection Results" width="800"/>
+  <p><em>Figure 1: Detection Results 1</em></p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/Mariiiiiio/FusionPalmID/blob/master/img/Palm_Detection2.jpg" alt="Detection Results" width="800"/>
+  <p><em>Figure 2: Detection Results 2</em></p>
+</div>
+
 
 
 ## License
