@@ -1,8 +1,8 @@
 <div align="center">
 <h1>FusionPalmID</h1>
 <h3>Enhanced Biometric Authentication through Integrated Palm Print and Palm Vein Images</h3>
-  [Chi Hung Wang1]<sup>1</sup>, [Wei Ren Chen]<sup>2</sup>, [Jun Jie Yen]<sup>3</sup>, [Xiang Shun Yang]<sup>4</sup>, [Yu Siang Siang]<sup>5</sup>
-  
+Chi Hung Wang<sup>1</sup>, Wei Ren Chen<sup>2</sup>, Jun Jie Yen<sup>3</sup>, Xiang Shun Yang<sup>4</sup>, Yu Siang Siang<sup>5</sup>
+
 <sup>1</sup> Dept. of Artificial Intelligence Technology and Application, Feng Chia University, Taichung, Taiwan
 
   
