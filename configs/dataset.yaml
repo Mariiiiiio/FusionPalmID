@@ -1,0 +1,35 @@
+# Dataset configuration for PalmFusion project
+path: ../datasets  # Dataset root directory
+train: train/images  # Train images relative to 'path'
+val: val/images      # Validation images relative to 'path'
+test: test/images    # Test images relative to 'path'
+
+# Classes
+names:
+  0: User1
+  1: User2
+  2: User3
+  3: User4
+  4: User5
+  5: User6
+  6: User7
+  7: User8
+
+# Image settings
+img_size: 640  # Image size for training
+batch_size: 16 # Batch size
+
+# Augmentation settings
+augment:
+  hsv_h: 0.015  # HSV-Hue augmentation
+  hsv_s: 0.7    # HSV-Saturation augmentation
+  hsv_v: 0.4    # HSV-Value augmentation
+  degrees: 0    # Image rotation (+/- deg)
+  translate: 0.1  # Image translation (+/- fraction)
+  scale: 0.5     # Image scale (+/- gain)
+  shear: 0.0    # Image shear (+/- deg)
+  perspective: 0.0  # Image perspective (+/- fraction), 0.0=disabled
+  flipud: 0.0    # Image flip up-down (probability)
+  fliplr: 0.5    # Image flip left-right (probability)
+  mosaic: 1.0    # Image mosaic (probability)
+  mixup: 0.0     # Image mixup (probability) 
