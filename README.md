@@ -117,18 +117,18 @@ python YoloV12/predict.py --weights checkpoints/yolov12_best.pt --source path/to
 ## Final Selected Model and Results
 
 Our YOLOv12-based model achieves:
-- mAP@50: 0.964
+- mAP@50-95: 0.923
 - Superior anti-counterfeiting capabilities
 - Enhanced feature fusion with 20:80 ratio
 
 ### Performance Visualization
 <div align="center">
-  <img src="https://github.com/Mariiiiiio/FusionPalmID/blob/master/img/Palm_Detection1.jpg" alt="Detection Results" width="800"/>
+  <img src="https://github.com/Mariiiiiio/FusionPalmID/blob/master/img/Palm_Detection1.jpg" alt="Detection Results" width="400"/>
   <p><em>Figure 1: Detection Results 1</em></p>
 </div>
 
 <div align="center">
-  <img src="https://github.com/Mariiiiiio/FusionPalmID/blob/master/img/Palm_Detection2.jpg" alt="Detection Results" width="800"/>
+  <img src="https://github.com/Mariiiiiio/FusionPalmID/blob/master/img/Palm_Detection2.jpg" alt="Detection Results" width="400"/>
   <p><em>Figure 2: Detection Results 2</em></p>
 </div>
 
