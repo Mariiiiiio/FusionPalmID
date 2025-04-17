@@ -1,4 +1,4 @@
-<div align="center">
+![image](https://github.com/user-attachments/assets/e35f53e9-70b7-453a-bd30-664f2bf34674)<div align="center">
 <h1>FusionPalmID</h1>
 <h3>Enhanced Biometric Authentication through Integrated Palm Print and Palm Vein Images</h3>
 Chi Hung Wang<sup>1</sup>, Wei Ren Chen<sup>2</sup>, Jun Jie Yen<sup>3</sup>, Xiang Shun Yang<sup>4</sup>, Yu Siang Siang<sup>5</sup>
@@ -105,8 +105,16 @@ python YoloV12/train.py
 ```bash
 python YoloV12/predict.py --weights checkpoints/yolov12_best.pt --source path/to/image
 ```
+## Main Results
 
-## Results
+**Comparison of YOLOv10, YOLOv11, and YOLOv12**:
+| Model                                                                                | size<br><sup>(pixels) | mAP<sup>@<br>50-95 | Speed(s)<br><sup>RTX4070Ti<br> | model based<br> | 
+| :----------------------------------------------------------------------------------- | :-------------------: | :-------------------:| :------------------------------:| :-----------------:|
+| YOLOv12<br> | 1024                   | 0.923                 | 2303                            | YOLO12n               |
+| YOLOv11 | 1024                   | 0.915                 | 1258                            | YOLO11n               |
+| YOLOv10 | 1024                   | 0.914                 | 1620                            | YOLO10n              |
+
+## Final Selected Model and Results
 
 Our YOLOv12-based model achieves:
 - mAP@50: 0.964
